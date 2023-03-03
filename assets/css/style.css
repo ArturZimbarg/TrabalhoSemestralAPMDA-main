@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Joti+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+head img{
+    z-index: 1;
+    padding-top: 0rem;
+    padding-right: 50rem;
+    padding-left: 50rem;
+    padding-bottom: rem;
+}
+
+html {
+    font-size: 62.5%;
+    background-color:#FDE2EF;
+    z-index: 0;
+}
+
+header img{
+    padding-top: 20rem;
+    padding-right: 90rem;
+    padding-left: 10rem;
+    padding-bottom: rem;
+    z-index: 2;
+}
+
+header {
+    height: 100vh;
+
+}
+
+
+h1 {
+    padding-top: 0rem;
+    padding-right: 60rem;
+    padding-left: 45rem;
+    padding-bottom: rem;
+    color: #A88D02;
+    font-family: Joti One;
+    font-size: 5rem;
+    font-weight: 900;
+    z-index: 3;
+
+}
+
+span {
+    padding-top: rem;
+    padding-right: 60rem;
+    padding-left: 40rem;
+    padding-bottom: rem;
+    color: #A88D02;
+    font-family: Joti One;
+    font-size: 2.5rem;
+    font-weight: 900;
+    z-index: 3 ;}
+
+section1 img{ 
+    padding-top: 30rem;
+    padding-right: 90rem;
+    padding-left: 10rem;
+    padding-bottom: rem;
+}
+
+
+descricao1 h3{
+    padding-top: 0rem;
+    padding-right: 80rem;
+    padding-left: 30rem;
+    padding-bottom: 10rem;
+}
+
+section2{
+    padding-top: 0rem;
+    padding-right: 10rem;
+    padding-left: 90rem;
+    padding-bottom: rem;
+}
+
+descricao2 h3{
+    padding-top: 0rem;
+    padding-right: 60rem;
+    padding-left: 50rem;
+    padding-bottom: 10rem;
+}
+
+section3{
+    padding-top: 0rem;
+    padding-right: 90rem;
+    padding-left: 10rem;
+    padding-bottom: rem;
+}
+
+descricao3 h3{
+    padding-top: 0rem;
+    padding-right: 80rem;
+    padding-left: 30rem;
+    padding-bottom: rem;
+}
+
+section4{
+    padding-top: 0rem;
+    padding-right: 10rem;
+    padding-left: 90rem;
+    padding-bottom: rem;
+}
+
+descricao4 h3{
+    padding-top: 0rem;
+    padding-right: 60rem;
+    padding-left: 50rem;
+    padding-bottom: rem;
+}
