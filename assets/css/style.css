@@ -6,6 +6,12 @@
     box-sizing: border-box;
 }
 
+:root{
+    --text-primary: #A88D02;
+    --font-heading: 'Joti One';
+    --fon-default:  'Montserrat';
+}
+
 head img{
     z-index: 1;
     padding-top: 0rem;
@@ -16,8 +22,13 @@ head img{
 
 html {
     font-size: 62.5%;
-    background-color:#FDE2EF;
+    background: linear-gradient(90deg, #F6CDE5, #FDE2EF);
     z-index: 0;
+}
+
+body{
+    font-family: var(--fon-default);
+    color: var(black)
 }
 
 header img{
@@ -26,21 +37,25 @@ header img{
     padding-left: 10rem;
     padding-bottom: rem;
     z-index: 2;
+    background-image: url("../assets/Image/Imagem_capa.png");
+    background-size: cover;    
 }
 
 header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     height: 100vh;
-
 }
 
 
 h1 {
     padding-top: 0rem;
-    padding-right: 60rem;
+    padding-right: 35rem;
     padding-left: 45rem;
     padding-bottom: rem;
-    color: #A88D02;
-    font-family: Joti One;
+    color: var(--text-primary);
+    font-family: var(--font-heading);
     font-size: 5rem;
     font-weight: 900;
     z-index: 3;
@@ -48,15 +63,41 @@ h1 {
 }
 
 span {
-    padding-top: rem;
+    padding-top: 0rem;
     padding-right: 60rem;
     padding-left: 40rem;
     padding-bottom: rem;
-    color: #A88D02;
-    font-family: Joti One;
+    color: var(--text-primary);
+    font-family: var(--font-heading);
     font-size: 2.5rem;
     font-weight: 900;
-    z-index: 3 ;}
+    z-index: 3 ;
+    }
+
+.button{
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.133), rgba(0, 0, 0, 0.133)  );
+    padding: 1rem, 3rem;
+    border-radius: 7px;
+    color: var(--text-primary);
+    font-size: 2rem;
+    font-family: var(--fon-default);
+    text-decoration:(none);
+}
+
+img.avatar{
+    border-radius: 50%;
+}
+
+.section-presenation{
+    display: felx;
+    color: var(--font-heading)
+}
+
+.section-presenation{
+    display: flex;
+    flex-direction: column;
+    
+}
 
 section1 img{ 
     padding-top: 30rem;
@@ -68,7 +109,7 @@ section1 img{
 
 descricao1 h3{
     padding-top: 0rem;
-    padding-right: 80rem;
+    padding-right: 70rem;
     padding-left: 30rem;
     padding-bottom: 10rem;
 }
@@ -82,8 +123,8 @@ section2{
 
 descricao2 h3{
     padding-top: 0rem;
-    padding-right: 60rem;
-    padding-left: 50rem;
+    padding-right: 40rem;
+    padding-left: 60rem;
     padding-bottom: 10rem;
 }
 
@@ -96,7 +137,7 @@ section3{
 
 descricao3 h3{
     padding-top: 0rem;
-    padding-right: 80rem;
+    padding-right: 70rem;
     padding-left: 30rem;
     padding-bottom: rem;
 }
@@ -110,7 +151,7 @@ section4{
 
 descricao4 h3{
     padding-top: 0rem;
-    padding-right: 60rem;
-    padding-left: 50rem;
+    padding-right: 40rem;
+    padding-left: 60rem;
     padding-bottom: rem;
 }
