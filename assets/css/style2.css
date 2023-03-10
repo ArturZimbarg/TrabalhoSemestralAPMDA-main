@@ -11,6 +11,26 @@ html {
     background: linear-gradient(180deg, #F6CDE5 0%, rgba(244, 145, 89, 0) 100%);
 }
 
+:root{
+    --text-primary: #A88D02;
+    --text-secundary: #FDE2EF;
+    --font-heading: 'Joti One';
+    --fon-default:  'Montserrat';
+}
+
+#titulo{
+    padding-top: 0rem;
+    padding-right: 35rem;
+    padding-left: 45rem;
+    padding-bottom: rem;
+    color: var(--text-primary);
+    font-family: var(--font-heading);
+    font-size: 5rem;
+    font-weight: 900;
+    z-index: 3;
+}
+
+
 #header {
     box-sizing: border-box;
 
@@ -30,25 +50,96 @@ html {
 #conteudo {
 
     position: absolute;
-    width: 99%;
-    height: 100%;
+    width: 98%;
+    height: 90%;
     left: 1%;
-    top: 0%;
+    top: 6.75%;
     
     background: #FDFDE2;
 
 }
 
-#disco {
+#imagem_inicial{
     position: absolute;
+    width: 499px;
+    height: 380px;
+    left: 71px;
+    top: 242px;
+}
 
-    height: 77px;
-    width: 331px;
-    left: 165px;
-    top: 270px;
+#texto_intro{
+    height: 400px;
+    width: 643px;
+    left: 554px;
+    top: 242px;
+}
+
+.primeiro_texto{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.11em;
+    text-align: left;
+
+}
+
+.caixa_disco {
+    position: relative;
+    height: 142px;
+    width: 496px;
+    left: 71px;
+    top: 78px;
+    background-color: var(--text-secundary);
 /*border-radius: nullpx;*/
 }
 
+.disco{
+    Width: 157px;
+    Height: 142px;
+}
 
+#texto1{
+    height: 200;
+}
 
+.textinho{
+    Font: var(--fon-default);
+    Width: 331px;
+    Height: 77px;
+    Top: 27px;
+    Left: 165px;
+}
+
+#caixa1{
+    position: absolute;
+    left: 5.73%;
+    right: 54.27%;
+    top: 51.75%;
+    bottom: 216.87%;
+}
+
+#caixa2{
+    position: absolute;
+    left: 54.27%;
+    right: 5.73%;
+    top: 64.94%;
+    bottom: 83.67%;
+}
+
+#caixa3{
+    position: absolute;
+    left: 5.73%;
+    right: 54.27%;
+    top: 77.98%;
+    bottom: 70.63%;
+}
+
+#caixa4{
+    position: absolute;
+    left: 54.27%;
+    right: 5.73%;
+    top: 91.17%;
+    bottom: -52.56%;
+}
 
