@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Joti+One&display=swap');
+
+html {
+    font-size: 62.5%;
+    position: absolute;
+    width: 1280px;
+    height: 2496px;
+    left: 0px;
+    top: 0px;
+
+    background: linear-gradient(180deg, #F6CDE5 0%, rgba(244, 145, 89, 0) 100%);
+}
+
+#header {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1280px;
+    height: 168px;
+    left: 0px;
+    top: 0px;
+    
+    border: 1px solid #173043;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    background-image: url("../Image/Imagem_capa.png");
+    background-size: cover;   
+}
+
+
+#conteudo {
+
+    position: absolute;
+    width: 99%;
+    height: 100%;
+    left: 1%;
+    top: 0%;
+    
+    background: #FDFDE2;
+
+}
+
+#disco {
+    position: absolute;
+
+    height: 77px;
+    width: 331px;
+    left: 165px;
+    top: 270px;
+/*border-radius: nullpx;*/
+}
+
+
+
+
