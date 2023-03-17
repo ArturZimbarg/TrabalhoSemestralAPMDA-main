@@ -144,7 +144,6 @@ html {
 .caixa_disco:hover{
     transform: scale(1.2);
     box-shadow: 0 0 20px #FDE2EF;
-
 }
 
 .disco{
