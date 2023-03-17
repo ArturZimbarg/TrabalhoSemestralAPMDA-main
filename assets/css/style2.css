@@ -2,11 +2,11 @@
 
 html {
     font-size: 62.5%;
-    position: absolute;
-    width: 1280px;
-    height: 2496px;
-    left: 0px;
-    top: 0px;
+    position: relative;
+    width: 90rem;
+    height: 250rem;
+    left: 0rem;
+    top: 0rem;
 
     background: linear-gradient(180deg, #F6CDE5 0%, rgba(244, 145, 89, 0) 100%);
 }
@@ -19,10 +19,10 @@ html {
 }
 
 #titulo{
-    padding-top: 0rem;
-    padding-right: 35rem;
-    padding-left: 45rem;
-    padding-bottom: rem;
+    position: relative;
+    top: -18rem;
+    /*right: 10px;*/
+    left: 55rem;
     color: var(--text-primary);
     font-family: var(--font-heading);
     font-size: 5rem;
@@ -34,13 +34,14 @@ html {
 #header {
     box-sizing: border-box;
 
-    position: absolute;
-    width: 1280px;
-    height: 168px;
-    left: 0px;
-    top: 0px;
-    border: 1px solid #173043;
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    /*position: relative;*/
+    width: 126rem;
+    height: 16rem;
+    left: 6rem;
+    right: 6rem;
+    top: -2rem;
+    /*border: 1px solid #173043;*/
+    /*box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25); */
     overflow: hidden;
     position: relative;
 }
@@ -54,8 +55,9 @@ html {
    /* background-color: black;*/
     position: absolute;
     top: 0;
-    left: 0;
-    z-index: -1;
+    left: 117px;
+    right: 123px;
+    z-index: 0;
     animation: zoom 3s ease-out;
 }
 
@@ -72,35 +74,44 @@ html {
 
 #conteudo {
 
-    position: absolute;
-    width: 98%;
-    height: 90%;
-    left: 1%;
-    top: 6.75%;
+    position: relative;
+    width: 125.4rem;
+    height: 215rem;
+    left: 12rem;
+    top: -16rem;
     
     background: #FDFDE2;
 }
 
+#intro{
+    position: relative;
+    width: 70rem;
+    height: 38rem;
+    left: 0rem;
+    top: 5rem;
+}
+
 #imagem_inicial{
-    position: absolute;
-    width: 499px;
-    height: 380px;
-    left: 71px;
-    top: 242px;
+    position: relative;
+    width: 49rem;
+    height: 38rem;
+    left: 0rem;
+    top: 25rem;
 }
 
 #texto_intro{
-    height: 400px;
-    width: 643px;
-    left: 554px;
-    top: 242px;
+    position: relative;
+    height: 40rem;
+    width: 64rem;
+    top: 1rem;
+    left: 50rem;
 }
 
 .primeiro_texto{
     font-family: Inter;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 27px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.75rem;
     letter-spacing: 0.11em;
     text-align: left;
 }
@@ -122,60 +133,115 @@ html {
 
 .caixa_disco {
     position: relative;
-    height: 142px;
-    width: 496px;
-    left: 71px;
-    top: 78px;
+    height: 14rem;
+    width: 49rem;
+    left: 7rem;
+    top: 7rem;
     background-color: var(--text-secundary);
-/*border-radius: nullpx;*/
+    border-radius: 5px;
+}
+
+.caixa_disco:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 20px #FDE2EF;
+
 }
 
 .disco{
-    Width: 157px;
-    Height: 142px;
+    position: relative;
+    Width: 15rem;
+    Height: 14rem;
+    border-radius: 5px;
 }
+
+#disco_1{
+    position: relative;
+    top: -1.15rem;    
+}
+
+#disco_2{
+    position: relative;
+    top: -1.15rem;    
+}
+
+#disco_3{
+    position: relative;
+    top: -1.15rem;    
+}
+
+#disco_4{
+    position: relative;
+    top: -1.15rem;    
+}
+
+#descricao_album{
+    position: relative;
+    top: 60rem;
+}
+
 
 #texto1{
-    height: 200;
+    position: relative;
+    Top: 5.75rem;
+    Left: 17.73rem;
+    
 }
 
-.textinho{
-    Font: var(--fon-default);
-    Width: 331px;
-    Height: 77px;
-    Top: 27px;
-    Left: 165px;
+#texto2{
+    position: relative;
+    Top: 5.75rem;
+    Left: 17.73rem;
 }
+
+#texto3{
+    position: relative;
+    Top: 5.75rem;
+    Left: 17.73rem;
+}
+
+#texto4{
+    position: relative;
+    Top: 5.75rem;
+    Left: 17.73rem;
+}
+
+/*.textinho{
+    Font: var(--fon-default);
+    Width: 331rem;
+    Height: 0rem;
+    Top: 27rem;
+    Left: 165rem;
+}*/
 
 #caixa1{
-    position: absolute;
-    left: 5.73%;
-    right: 54.27%;
-    top: 51.75%;
-    bottom: 216.87%;
+    position: relative;
+    left: 5.73rem;
+    right: 54.27rem;
+    top: 60.75rem;
+    bottom: 0rem;
 }
 
 #caixa2{
-    position: absolute;
-    left: 54.27%;
-    right: 5.73%;
-    top: 64.94%;
+    position: relative;
+    left: 67.8rem;
+    right: 5.73rem;
+    top: 70.94rem;
     bottom: 83.67%;
 }
 
 #caixa3{
-    position: absolute;
-    left: 5.73%;
-    right: 54.27%;
-    top: 77.98%;
-    bottom: 70.63%;
+    position: relative;
+    left: 5.73rem;
+    right: 54.27rem;
+    top: 80.98rem;
+    bottom: 70.63rem;
 }
 
 #caixa4{
-    position: absolute;
-    left: 54.27%;
-    right: 5.73%;
-    top: 91.17%;
-    bottom: -52.56%;
+    position: relative;
+    left: 67.8rem;
+    right: 5.73rem;
+    top: 90.17rem;
+    bottom: -52.56rem;
 }
 
