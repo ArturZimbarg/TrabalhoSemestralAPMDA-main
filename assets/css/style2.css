@@ -70,6 +70,19 @@ html {
         transform: scale(1.0);
     }
 
+    
+}
+
+@keyframes sobe_desce{
+    0%{
+        transform: top(-1.15);
+    }
+
+    100%{
+        transform: top(-5.15);
+    }
+
+
 }
 
 #conteudo {
@@ -141,10 +154,10 @@ html {
     border-radius: 5px;
 }
 
-.caixa_disco:hover{
+/*.caixa_disco:hover{
     transform: scale(1.2);
     box-shadow: 0 0 20px #FDE2EF;
-}
+}*/
 
 .disco{
     position: relative;
@@ -153,9 +166,26 @@ html {
     border-radius: 5px;
 }
 
+.vitrola{
+    position: relative;
+    Width: 15rem;
+    Height: 14rem;
+    border-radius: 5px;
+    z-index: 0;
+}
+
 #disco_1{
     position: relative;
     top: -1.15rem;    
+}
+
+#disco_1:hover + #vitrola1{
+    display: block;
+}
+
+#vitrola1 {
+    padding: -20px;
+    display: none;
 }
 
 #disco_2{
@@ -163,15 +193,42 @@ html {
     top: -1.15rem;    
 }
 
+#disco_2:hover + #vitrola2{
+    display: block;
+}
+
+#vitrola2 {
+    padding: -20px;
+    display: none;
+  }
+
 #disco_3{
     position: relative;
     top: -1.15rem;    
 }
 
+#disco_3:hover + #vitrola3{
+    display: block;
+}
+
+#vitrola3 {
+    padding: -20px;
+    display: none;
+  }
+
 #disco_4{
     position: relative;
     top: -1.15rem;    
 }
+
+#disco_4:hover + #vitrola4{
+    display: block;
+}
+
+#vitrola4 {
+    padding: -20px;
+    display: none;
+  }
 
 #descricao_album{
     position: relative;
