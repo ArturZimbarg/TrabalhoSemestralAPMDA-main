@@ -3,8 +3,8 @@
 html {
     font-size: 62.5%;
     position: relative;
-    width: 90rem;
-    height: 250rem;
+    width: 125rem;
+    height: 275rem;
     left: 0rem;
     top: 0rem;
     background: linear-gradient(180deg, #F6CDE5 0%, rgba(244, 145, 89, 0) 100%);
@@ -13,8 +13,8 @@ html {
 body {
     font-size: 62.5%;
     position: relative;
-    width: 90rem;
-    height: 250rem;
+    width: 125rem;
+    height: 270rem;
     left: 0rem;
     top: 0rem;
 }
@@ -31,6 +31,8 @@ body {
     top: -18rem;
     /*right: 10px;*/
     left: 55rem;
+    height: 6.72rem;
+    width: 38rem;
     color: var(--text-primary);
     font-family: var(--font-heading);
     font-size: 5rem;
@@ -41,7 +43,6 @@ body {
 
 #header {
     box-sizing: border-box;
-
     /*position: relative;*/
     width: 126rem;
     height: 16rem;
@@ -52,6 +53,12 @@ body {
     /*box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25); */
     overflow: hidden;
     position: relative;
+}
+
+#saiba_mais{
+    position: relative;
+    top: 75rem;
+    left: 1rem;
 }
 
 #header::before{
@@ -96,11 +103,11 @@ body {
 #conteudo {
 
     position: relative;
-    width: 125.4rem;
-    height: 215rem;
+    width: 125rem;
+    height: 260rem;
     left: 12rem;
     top: -16rem;
-    
+    border-radius: 2.5rem;
     background: #FDFDE2;
 }
 
@@ -129,14 +136,18 @@ body {
 }
 
 #section-projects{
-    background-color: #212121;
+    background-color: #d20766;
+    top: 100rem ;
+    position: relative;
+    border-radius: 2.5rem;
+
 }
 
 #section-projects ul{
     display: flex;
     justify-content: space-around;
     gap: 4rem;
-    margin-top: 2rem;
+    margin-top: 19rem;
 
 }
 
@@ -155,15 +166,22 @@ body {
 
 .card-info{
     display: flex;
-    flex-direction: bottom;
+    flex-direction:column;
     position: absolute;
-    bottom: 0;
+    color: orange;
+    top: 0;
     opacity: 0;
+    font-size: 2.01rem;
     transition: opacity .5s, botom .5s ;
 }
 
 #section-projects li:hover .card-info{
     opacity: 1;
+}
+
+#section-projects li:hover .card_shape{
+    opacity: 0.3;
+    transition: opacity .5s, botom .5s;
 }
 
 .primeiro_texto{
@@ -177,7 +195,7 @@ body {
 
 .button{
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.133), rgba(0, 0, 0, 0.133)  );
-    padding: 1rem, 3rem;
+    /*padding: 1rem, 3rem;*/
     border-radius: 7px;
     color: var(--text-primary);
     font-size: 2rem;
@@ -351,3 +369,14 @@ body {
     bottom: -52.56rem;
 }
 
+#momentos{
+    position: relative;
+    /*padding: 1rem, 3rem;*/
+    border-radius: 7px;
+    color: var(#0000);
+    left: 8rem;
+    font-size: 2rem;
+    font-family: var(--font-heading);
+    text-decoration:(none);
+
+}
