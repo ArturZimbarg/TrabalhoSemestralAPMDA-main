@@ -6,10 +6,40 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Joelho de porco</title>
         <link rel="stylesheet" href="./assets/css/style2.css">
-        <img src="" alt="">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         
     </head>
     <body>
+
+        <nav>
+            <div id="hamburguer">
+                <div class="linha"></div>
+                <div class="linha"></div>
+                <div class="linha"></div>
+            </div>
+            
+            <ul id="menu" class="menu-show">
+                <li>
+                    <a href="#">
+                    <i class="fa-solid fa-house fa-shake"></i>
+                    Home
+                    </a>
+                </li>
+                <li><a href="#">
+                    <i class="fa-solid fa-compact-disc"></i>
+                    Discos
+                    </a>
+                </li>
+                <li><a href="#">Momentos</a></li>
+                <li>
+                    <a href="#">
+                    <i class="fa-solid fa-comments fa-shake"></i>
+                    Feedback
+                    </a>
+                </li>
+            </ul>
+        
+        </nav>
 
         <div id="header"></div>
         <h1 id="titulo"> Joelho de Porco</h1>
@@ -107,14 +137,15 @@
                     </div>
                     <label for="prazo">De 0 a 10, dê uma nota</label>
                     <input type="range" id="prazo" min="1" max="10">
-                    <div>
+                    <!-- <div>
                         <output id="preco">Muito obrigado pelo apoio, se quiser nos ajudar escreva sua sugestão a baixo</output>
-                    </div>
+                    </div>-->
         
                 </form>
             </section>
 
-        <script src="../assets/js/script.js"></script>
+        <script src="./assets/js/script.js"></script>
+        <script src="./assets/js/menu.js"></script>
         </div>
         
        
