@@ -20,20 +20,22 @@
             
             <ul id="menu" class="menu-show">
                 <li>
-                    <a href="#">
-                    <i class="fa-solid fa-house fa-shake"></i>
+                    <a href="#" class="menu_topic">
+                    <i class="fa-solid fa-house fa-static"></i>
                     Home
                     </a>
                 </li>
-                <li><a href="#">
+                <li><a href="#caixa1" class="menu_topic">
                     <i class="fa-solid fa-compact-disc"></i>
                     Discos
                     </a>
                 </li>
-                <li><a href="#">Momentos</a></li>
+                <li><a href="#momentos" class="menu_topic">
+                    <i class="fa-solid fa-drum"></i>
+                    Momentos</a></li>
                 <li>
-                    <a href="#">
-                    <i class="fa-solid fa-comments fa-shake"></i>
+                    <a href="#section-budged" class="menu_topic">
+                    <i class="fa-solid fa-comments fa-static"></i>
                     Feedback
                     </a>
                 </li>
@@ -44,7 +46,6 @@
         <div id="header"></div>
         <h1 id="titulo"> Joelho de Porco</h1>
         <div id="conteudo">
-            <a id="saiba_mais" class="button"> Saiba mais</a>
             <div id="intro">
                 <img id="imagem_inicial"class="imagem_um" src="..\assets\Image\primeira_imagem.jpeg" alt="Fotos do joelho">
                 <div id="texto_intro" class="primeiro_texto" > Joelho de Porco é uma banda brasileira de rock formada em 1972 em São Paulo,
@@ -123,9 +124,9 @@
                     <h4>Nos ajude!</h4>
                     <label for="js">Conhecia o joelho?</label>
                     <div>
-                        <input type="radio" id="layout-sim_JS" name="layout">
+                        <input type="radio" id="layout-sim_JS" name="layout_JS">
                         <label for="layout-sim_JS">sim</label>
-                        <input type="radio" id="layout-nao_JS" name="layout">
+                        <input type="radio" id="layout-nao_JS" name="layout_JS">
                         <label for="layout-nao_JS">não</label>
                     </div>
                     <label for="layout">Gostou do site?</label>
@@ -135,7 +136,7 @@
                         <input type="radio" id="layout-nao" name="layout">
                         <label for="layout-nao">não</label>
                     </div>
-                    <label for="prazo">De 0 a 10, dê uma nota</label>
+                    <label for="prazo">O quanto você gostou?</label>
                     <input type="range" id="prazo" min="1" max="10">
                     <!-- <div>
                         <output id="preco">Muito obrigado pelo apoio, se quiser nos ajudar escreva sua sugestão a baixo</output>
