@@ -2,21 +2,10 @@
 
 html {
     font-size: 62.5%;
-    position: relative;
-    width: 125rem;
-    height: 225rem;
-    left: 0rem;
-    top: 0rem;
-    background: #F6CDE5 100%;
 }
-
 body {
-    font-size: 62.5%;
-    position: relative;
-    width: 125rem;
-    height: 220rem;
-    left: 0rem;
-    top: 0rem;
+    background: #F6CDE5 100%;
+    
 }
 
 :root{
@@ -74,7 +63,7 @@ nav ul {
     border-radius: 50%;
     border: 16px solid #999;
     border-top: 16px solid var(--text-primary);
-    animation: spin 5s infinite;
+    animation: spin 2s linear infinite;
 }
 
 .hide{
@@ -82,14 +71,13 @@ nav ul {
 }
 
 @keyframes spin {
-    0% {
-        transform: rotate (0deg);
+    0% { 
+        transform: rotate(0deg);
     }
-    100%{
-        transform: rotate (360deg);
+    100% {
+        transform: rotate(360deg);
     }
 }
-
 #hamburguer{
     display: flex;
     justify-content: space-between;
@@ -196,6 +184,7 @@ nav ul {
 #conteudo {
 
     position: relative;
+    justify-content: center;
     width: 125rem;
     height: 370rem;
     left: 12rem;
@@ -509,5 +498,16 @@ nav ul {
         display: none;
     }
         */
+    }
+
+    #section-budged{
+        top: 140rem;
+    }
+
+
+
+    #conteudo{
+        width: 125rem;
+        height: 420rem;
     }
 }
